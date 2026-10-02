@@ -1,0 +1,17 @@
+{
+    "cmake.sourceDirectory": "/home/test/Downloads/Github/Llama-cpp-Nativo-Vulkan-GPU-NVIDIA-1060-6GB/llama.cpp",
+    "cmake.cmakePath": "/home/test/anaconda3/envs/llama-vulkan/bin/cmake",
+    "cmake.generator": "Ninja",
+    "cmake.configureArgs": [
+        "-DGGML_VULKAN=ON",
+        "-DLLAMA_CURL=OFF",
+        "-DCMAKE_PREFIX_PATH=/home/test/anaconda3/envs/llama-vulkan",
+        "-DCMAKE_CXX_FLAGS=-I/home/test/anaconda3/envs/llama-vulkan/include",
+        "-DCMAKE_MAKE_PROGRAM=/home/test/anaconda3/envs/llama-vulkan/bin/ninja"
+    ],
+    "cmake.environment": {
+        "PATH": "/home/test/anaconda3/envs/llama-vulkan/bin:${env:PATH}",
+        "GGML_VK_VISIBLE_DEVICES": "1"
+    },
+    "python.defaultInterpreterPath": "/home/test/anaconda3/envs/llama-vulkan/bin/python"
+}

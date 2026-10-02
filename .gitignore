@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# Large model weights (download with: hf download ... see docs/00-SETUP.md)
+models/*.gguf
+
+# Upstream llama.cpp — it is its own git repo (origin: ggml-org/llama.cpp).
+# Do NOT track or push it here; clone & build it separately (see docs/00-SETUP.md).
+llama.cpp/
