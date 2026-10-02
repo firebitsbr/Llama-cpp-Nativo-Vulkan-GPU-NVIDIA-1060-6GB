@@ -87,3 +87,11 @@ cmake --build build --config Release -j"$(nproc)"
 ```bash
 conda env create -f environment.yml
 ```
+
+## License
+This project is licensed under the **MIT License** — see [LICENSE](LICENSE).
+
+> Note: the upstream `llama.cpp/` folder is a separate project with its own
+> license (MIT, by the ggml-org authors) and is not covered by this repository.
+
+Copyright (c) 2026 Mauro Risonho de Paula Assumpção
