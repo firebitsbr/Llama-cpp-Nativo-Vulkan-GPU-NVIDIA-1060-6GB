@@ -2,6 +2,9 @@
 __pycache__/
 *.pyc
 
+# Screenshots / images in docs
+docs/*.png
+
 # Large model weights (download with: hf download ... see docs/00-SETUP.md)
 models/*.gguf
 
