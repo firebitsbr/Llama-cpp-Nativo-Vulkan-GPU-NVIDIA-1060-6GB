@@ -5,7 +5,7 @@ Update Date: 2026-10-01
 Short Description: Overview of the native llama.cpp (Vulkan) project on the GTX 1060 6GB.
 LICENSE MIT
 -->
-# Native Llama.cpp (Vulkan) — NVIDIA GTX 1060 6GB GPU
+# [Draft] Native Llama.cpp (Vulkan) — NVIDIA GTX 1060 6GB GPU
 
 Environment to run **native Vulkan-accelerated llama.cpp** on the GTX 1060 6GB and
 to build **AI / agentic** applications in Python.
